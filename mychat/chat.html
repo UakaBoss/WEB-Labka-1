@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      justify-content: center;
+      align-items: center;
+      padding: 100px 150px;
+    }
+    #messages {
+      background-color: lightblue;
+      font-size: 32px;
+      border-radius: 8px;
+      border: none;
+      background-color: rgb(158, 213, 232);
+      margin-bottom: 24px;
+    }
+    input {
+      height: 50px;
+      width: 100%;
+      margin-bottom: 10px;
+      border-radius: 8px;
+      border: none;
+      background-color: rgb(160, 212, 230);
+    }
+    button {
+      height: 50px;
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+      border: none;
+      background-color: rgb(75, 150, 175);
+      font-size: 32px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div id="messages"></div>
+  <form id="messageForm">
+    <input type="text" id="messageInput" placeholder="TYPE...">
+    <button type="submit">Send</button>
+  </form>
+  <script src="chat.js"></script>
+</body>
+</html>
